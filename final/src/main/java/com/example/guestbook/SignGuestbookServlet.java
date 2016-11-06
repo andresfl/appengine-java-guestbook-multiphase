@@ -53,7 +53,7 @@ public class SignGuestbookServlet extends HttpServlet {
     User user = userService.getCurrentUser();  // Find out who the user is.
 
     String guestbookName = req.getParameter("guestbookName");
-    String content = req.getParameter("content");
+    String content = "Your Website is awesome! "+req.getParameter("content");
     if (user != null) {
       greeting = new Greeting(guestbookName, content, user.getUserId(), user.getEmail());
     } else {
