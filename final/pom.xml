@@ -12,6 +12,7 @@
     <properties>
         <appengine.app.version>1</appengine.app.version>
         <appengine.sdk.version>1.9.24</appengine.sdk.version>
+		<restlet-version>2.3.7</restlet-version>
 
         <objectify.version>5.1.5</objectify.version>
         <guava.version>18.0</guava.version>
@@ -79,6 +80,16 @@
   		  <artifactId>org.restlet.ext.simple</artifactId>
   		  <version>2.2-RC4</version>
 		</dependency>
+    	<dependency>
+        	<groupId>org.restlet.jse</groupId>
+        	<artifactId>org.restlet</artifactId>
+        	<version>${restlet-version}</version>
+    	</dependency>
+    	<dependency>
+        	<groupId>org.restlet.jse</groupId>
+        	<artifactId>org.restlet.ext.jackson</artifactId>
+        	<version>${restlet-version}</version>
+    	</dependency>
     </dependencies>
 
 
