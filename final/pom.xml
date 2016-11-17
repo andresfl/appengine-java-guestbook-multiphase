@@ -92,7 +92,14 @@
     	</dependency>
     </dependencies>
 
-
+	<repositories>
+		<repository>
+  			<id>maven-restlet</id>
+  			<name>Public online Restlet repository</name>
+ 	 		<url>http://maven.restlet.com</url>
+		</repository>
+	</repositories>
+	
     <build>
         <!-- for hot reload of the web application-->
         <outputDirectory>${project.build.directory}/${project.build.finalName}/WEB-INF/classes</outputDirectory>

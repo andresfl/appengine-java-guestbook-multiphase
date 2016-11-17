@@ -17,6 +17,7 @@
     <welcome-file-list>
         <welcome-file>guestbook.jsp</welcome-file>
     </welcome-file-list>
+    
 <!-- [END standard_mappings] -->
 
 <!-- [START Objectify] -->
@@ -33,3 +34,6 @@
     </listener>
 <!-- [END Objectify] -->
 </web-app>
+
+
+
